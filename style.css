@@ -51,9 +51,10 @@ p {
 #social-media-icons {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-between;
+  justify-content: center;
   gap: 5vw;
+  list-style: none;
+  padding-left: 0;
 }
 
 .menu-img {
