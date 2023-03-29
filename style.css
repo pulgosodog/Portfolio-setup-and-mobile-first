@@ -65,10 +65,10 @@ p {
   height: auto;
 }
 
-.circle{
+.circle {
   border-radius: 50%;
   border: solid;
-  border-color:#e9ebee;
+  border-color: #e9ebee;
   border-width: 2px;
   width: 9vw;
   height: 9vw;
@@ -79,12 +79,12 @@ p {
   background-color: white;
 }
 
-.down-arrow{
+.down-arrow {
   width: 5vw;
   height: 5vw;
 }
 
-.circle:hover{
+.circle:hover {
   background-color: #172b4d;
   background-color: azure;
 }
