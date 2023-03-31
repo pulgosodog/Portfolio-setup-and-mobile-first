@@ -2,6 +2,7 @@ body {
   font-family: Inter, sans-serif;
   margin: 0%;
   text-align: center;
+
 }
 
 nav {
@@ -12,7 +13,7 @@ nav {
 
 h1,
 h2 {
-  font-size: 2.5em;
+  font-size: 10.667vw;
   margin: 1vw;
 }
 
@@ -24,16 +25,35 @@ h2 {
   color: #36b37e;
 }
 
-.primary p {
+.works h2 {
   color: #172b4d;
-  font-size: 1.1em;
-  font-weight: 400;
-  margin: 3vw 5vw;
 }
 
-ul{
+h3 {
+  color: #3a4a42;
+}
+
+.supporting-text {
+  text-align: center;
+}
+
+.supporting-text {
+  color: #172b4d;
+  font-size: 5.3vw;
+  font-weight: 400;
+  margin: 7.2vw;
+}
+
+ul {
   list-style: none;
   padding-left: 0;
+}
+
+.tecnology-box p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.200vw;
 }
 
 #headline {
@@ -46,12 +66,12 @@ ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 1vw;
+  justify-content: space-around;
+  gap: 0px;
 }
 
 #primary {
-  margin-bottom: 5vw;
+  margin-top: 10vw;
 }
 
 #social-media-icons {
@@ -59,6 +79,7 @@ ul{
   flex-direction: row;
   justify-content: center;
   gap: 5vw;
+  margin: 0;
 }
 
 .menu-img {
@@ -89,32 +110,76 @@ ul{
   height: 5vw;
 }
 
-.card{
-text-align: center;
-display:flex;
-flex-direction: column;
-align-items: center;
-border-radius: 10%;
-border: solid;
-border-color: #d1d9d5;
-width: 85vw;
-height: 55vw;
+hr {
+  border: 0.54vw solid #36b37e;
+  border-radius: 24px;
+  width: 12%;
+  margin-top: 6%;
+  margin-bottom: 15%;
 }
 
-.tecnologies{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+.card-container {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: 1fr 8fr 1fr;
 }
 
-.tecnology-box{
-background-color: #ebf0ee;
-border-radius: 10%;
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #d1d9d5;
+  background-color: #ebf0ee;
+  grid-column-start: 2;
+  margin-bottom: 6.400vw;
 }
 
-.tecnology-box p{
-  padding: 1%;
+.card-img {
+  height: 83vw;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.tecnologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tecnology-box {
+  background-color: #ebf0ee;
+  border-radius: 10%;
+  padding: 5px 10px;
+}
+
+.tecnology-box p {
   font-size: 0.8em;
+  margin: 0;
+}
+
+.see-project {
+ display: flex;
+ justify-content: center;
+ text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  background-color: #36b37f;
+  width: 30.533vw;
+  height: 11.800vw;
+  border-radius: 5px;
 }
 
 .circle:hover {
