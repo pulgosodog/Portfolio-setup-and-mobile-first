@@ -1,6 +1,7 @@
 body {
   font-family: Inter, sans-serif;
   margin: 0%;
+  text-align: center;
 }
 
 nav {
@@ -23,11 +24,16 @@ h2 {
   color: #36b37e;
 }
 
-p {
+.primary p {
   color: #172b4d;
   font-size: 1.1em;
   font-weight: 400;
   margin: 3vw 5vw;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
 }
 
 #headline {
@@ -40,7 +46,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 1vw;
 }
 
@@ -53,8 +59,6 @@ p {
   flex-direction: row;
   justify-content: center;
   gap: 5vw;
-  list-style: none;
-  padding-left: 0;
 }
 
 .menu-img {
@@ -83,6 +87,34 @@ p {
 .down-arrow {
   width: 5vw;
   height: 5vw;
+}
+
+.card{
+text-align: center;
+display:flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10%;
+border: solid;
+border-color: #d1d9d5;
+width: 85vw;
+height: 55vw;
+}
+
+.tecnologies{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.tecnology-box{
+background-color: #ebf0ee;
+border-radius: 10%;
+}
+
+.tecnology-box p{
+  padding: 1%;
+  font-size: 0.8em;
 }
 
 .circle:hover {
