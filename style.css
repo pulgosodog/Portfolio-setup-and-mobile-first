@@ -2,7 +2,6 @@ body {
   font-family: Inter, sans-serif;
   margin: 0%;
   text-align: center;
-
 }
 
 nav {
@@ -32,7 +31,7 @@ h2 {
 }
 
 .about-text h2 {
-color: #172b4d;
+  color: #172b4d;
 }
 
 h3 {
@@ -53,10 +52,11 @@ ul {
 }
 
 .tecnology-box p {
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 3.200vw;
+  font-size: 0.8em;
+  margin: 0;
 }
 
 #headline {
@@ -70,7 +70,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  gap: 0px;
+  gap: 0;
 }
 
 #primary {
@@ -137,7 +137,7 @@ hr {
   border-color: #d1d9d5;
   background-color: #ebf0ee;
   grid-column-start: 2;
-  margin-bottom: 6.400vw;
+  margin-bottom: 6.4vw;
 }
 
 .card-img {
@@ -165,23 +165,18 @@ hr {
   padding: 5px 10px;
 }
 
-.tecnology-box p {
-  font-size: 0.8em;
-  margin: 0;
-}
-
 .green-button {
   align-self: center;
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   color: white;
   background-color: #36b37f;
   width: 30.533vw;
-  height: 11.800vw;
+  height: 11.8vw;
   border-radius: 5px;
   font-size: small;
 }
@@ -189,13 +184,12 @@ hr {
 .about-me{
   position: relative;
   margin-top: 10%;
-
 }
 
 .about-text{
   display: flex;
   flex-direction: column;
-  align-items:center ;
+  align-items: center ;
 }
 
 .about-rigth{
@@ -207,9 +201,10 @@ hr {
 .about-left{
   position: absolute;
   left: 0;
-  top:0;
-  bottom:0;
+  top: 0;
+  bottom: 0;
 }
+
 .hability-card-holder{
   display: grid;
   margin: 35% auto;
@@ -225,7 +220,7 @@ hr {
 .get-in-touch{
   margin-right: 10%;
   margin-left: 10%;
-  font-size:8vw;
+  font-size: 8vw;
   color: #172b4d;
 }
 
@@ -240,15 +235,15 @@ hr {
 
 .form-item{
   grid-column-start: 2;
-  height: 12.800vw;
+  height: 12.8vw;
   border-radius: 6px;
   border: solid 1px #d0d9d4;
   font-style: italic;
 }
 
 .text-area{
-  border:solid 1px #60c095;
-  height: 30.400vw;
+  border: solid 1px #60c095;
+  height: 30.4vw;
   font-style: normal;
   font-family: Inter, sans-serif;
 }
@@ -256,7 +251,7 @@ hr {
 .submit-button{
   font-style: normal;
   width: 30.533vw;
-  height: 11.800vw;
+  height: 11.8vw;
   margin: auto 30%;
   color:white;
   background-color: #36b37F;
@@ -273,7 +268,7 @@ hr {
 .footer-email{
   font-size: 5.333vw;
   font-family: Inter, sans-serif;
-  color:#42526e;
+  color: #42526e;
 }
 
 .hr-bottom{
