@@ -181,59 +181,59 @@ hr {
   font-size: small;
 }
 
-.about-me{
+.about-me {
   position: relative;
   margin-top: 10%;
 }
 
-.about-text{
+.about-text {
   display: flex;
   flex-direction: column;
-  align-items: center ;
+  align-items: center;
 }
 
-.about-rigth{
+.about-rigth {
   position: absolute;
   right: 0;
-  bottom:97%;
+  bottom: 97%;
 }
 
-.about-left{
+.about-left {
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
 }
 
-.hability-card-holder{
+.hability-card-holder {
   display: grid;
   margin: 35% auto;
   grid-template-columns: 1fr 8fr 1fr;
-  grid-template-rows: repeat(3,1fr);
-  grid-row-gap:2%;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 2%;
 }
 
-.hability-card{
+.hability-card {
   grid-column-start: 2;
 }
 
-.get-in-touch{
+.get-in-touch {
   margin-right: 10%;
   margin-left: 10%;
   font-size: 8vw;
   color: #172b4d;
 }
 
-.contact-me{
+.contact-me {
   display: grid;
   margin: 8% auto;
   grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: 1fr 1fr 2fr 1fr;
-  grid-row-gap:8%;
+  grid-row-gap: 8%;
   text-align: center;
 }
 
-.form-item{
+.form-item {
   grid-column-start: 2;
   height: 12.8vw;
   border-radius: 6px;
@@ -241,43 +241,42 @@ hr {
   font-style: italic;
 }
 
-.text-area{
+.text-area {
   border: solid 1px #60c095;
   height: 30.4vw;
   font-style: normal;
   font-family: Inter, sans-serif;
 }
 
-.submit-button{
+.submit-button {
   font-style: normal;
   width: 30.533vw;
   height: 11.8vw;
   margin: auto 30%;
-  color:white;
-  background-color: #36b37F;
-
+  color: white;
+  background-color: #36b37f;
 }
 
-.footer{
+.footer {
   margin-top: 15%;
   display: flex;
   flex-direction: column;
   gap: 5vw;
 }
 
-.footer-email{
+.footer-email {
   font-size: 5.333vw;
   font-family: Inter, sans-serif;
   color: #42526e;
 }
 
-.hr-bottom{
+.hr-bottom {
   border: 0.6vw solid black;
   width: 30%;
   margin-bottom: 1%;
 }
 
-.footer-ilustration{
+.footer-ilustration {
   position: absolute;
   bottom: 3.5%;
   right: 0;
