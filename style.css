@@ -55,8 +55,9 @@ ul {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 0.7em;
   margin: 0;
+  white-space: nowrap;
 }
 
 #headline {
@@ -94,6 +95,13 @@ ul {
   height: auto;
 }
 
+.scroll-down {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 20% auto;
+}
+
 .circle {
   border-radius: 50%;
   border: solid;
@@ -102,10 +110,17 @@ ul {
   width: 9vw;
   height: 9vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: white;
+  margin: 10%;
+  grid-column-start: 3;
+  justify-self: center;
+}
+
+.scroll-down-vector {
+  grid-column-start: 5;
+  justify-self: flex-end;
 }
 
 .down-arrow {
@@ -155,14 +170,14 @@ hr {
 
 .tecnologies {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .tecnology-box {
   background-color: #ebf0ee;
   border-radius: 10%;
-  padding: 5px 10px;
+  padding: 5px 12px;
 }
 
 .green-button {
@@ -173,17 +188,24 @@ hr {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
-  color: white;
-  background-color: #36b37f;
   width: 30.533vw;
   height: 11.8vw;
   border-radius: 5px;
   font-size: small;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  background: #36b37f;
+  color: #fff;
+  cursor: pointer;
 }
 
 .about-me {
+  margin-top: 20%;
+}
+
+.vector-placement {
   position: relative;
-  margin-top: 10%;
 }
 
 .about-text {
@@ -214,7 +236,29 @@ hr {
 }
 
 .hability-card {
-  grid-column-start: 2;
+  width: 87.2vw 74.158vw;
+}
+
+.tecnology-img {
+  margin-top: 13%;
+}
+
+.tecnologies-h3 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 6.4vw;
+  margin-top: 0;
+}
+
+.tecnologies-hability {
+  margin-bottom: 19.2vw;
+}
+
+.lenguage {
+  background-color: white;
+  color: #36b37e;
+  margin: auto 4%;
 }
 
 .get-in-touch {
@@ -280,6 +324,15 @@ hr {
   position: absolute;
   bottom: 3.5%;
   right: 0;
+}
+
+button:hover {
+  margin-top: 0;
+  box-shadow: 0 0 4px 1px #36b37f;
+}
+
+button:active {
+  background: #008552;
 }
 
 .circle:hover {

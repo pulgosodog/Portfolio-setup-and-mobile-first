@@ -69,7 +69,7 @@ This first project will precisely replicate one of the portfolio templates provi
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-### <a href="https://pulgosodog.github.io/Portfolio-setup-and-mobile-first/">Click Here</a>
+### <a href="">Not yet available</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
